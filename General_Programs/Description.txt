@@ -1,2 +1,5 @@
 In this folder we can solve the generic problem that can be asked in an interview for fresher level in a service based company
+
+Solved the Git issues https://www.youtube.com/watch?v=R8QmCCcm0GU 
+ https://www.youtube.com/watch?v=fkKkojKYZ8Ub 
  
