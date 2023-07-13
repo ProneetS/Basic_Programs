@@ -21,3 +21,11 @@ public class count{
         scn.close();
     }
 }
+
+//Time Complexity O(Log10(N))
+
+//If the division is happening by 10, we can say Log10(N)
+//If the division is happening by 2, we can say Log2(N)
+
+
+//When the number of iteration depends on division, that is when "Log" will come in picture of Time Complexity

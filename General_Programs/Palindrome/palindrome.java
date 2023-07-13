@@ -25,3 +25,9 @@ public class palindrome {
     }
     
 }
+
+
+//Palindrome are the numbers for which reverse is exactly same as the original one.
+//eg: 121 (Palindrome)    123(Not Palindrome)
+
+//Time complexity O(Log10(N))
