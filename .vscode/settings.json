@@ -2,8 +2,11 @@
     "java.project.sourcePaths": [
         "src",
         "patterns",
+        "General_Programs/Print_All_Divisors",
+        "General_Programs/Palindrome",
         "General_Programs/Count_Digit",
-        "General_Programs/Print_All_Divisors"
+        "General_Programs/Armstrong_Num",
+        "General_Programs/Reverse_Number"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [

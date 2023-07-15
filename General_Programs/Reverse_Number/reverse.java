@@ -4,7 +4,7 @@ import java.util.*;
 public class reverse {
 
     static int reverse_num(int n){
-        int num = n;
+        
         int reverse = 0;
         while(n != 0){
             int digit = n % 10;
