@@ -1,7 +1,9 @@
 {
     "java.project.sourcePaths": [
         "src",
-        "patterns"
+        "patterns",
+        "General_Programs/Count_Digit",
+        "General_Programs/Print_All_Divisors"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [

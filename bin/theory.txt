@@ -1,0 +1,53 @@
+Lets say number N = 36.
+
+So all the divisors of 36 are 1, 2, 3, 4, 6, 9, 12, 18, 36
+
+All the divisors are in between 1 and 36 i.e. If we want to try to find the divisors then it always lies between 1 and N 
+
+so loop from 1 to N  
+
+pseudo code
+============
+
+for(i = 1; i <= N; i++){
+    if(N%i == 0){
+        print(i);      // this "if" condition is unit operation 
+    }
+}
+
+so here the Time complexity is O(N). 
+
+
+if we observe the above "if" condition is repeating the task. i.e. 
+
+1 * 36
+2 * 18
+3 * 12
+4 * 9
+6 * 6
+9 * 4
+12 * 3
+18 * 2
+36 * 1 
+
+so if we consider 6 * 6 as the center and then calculate till there then we don't need to calculate the 2nd half.
+
+
+sqare root of 36 is 6 
+so we will calculate till square root of N 
+then our calculation operation will be half. 
+
+pseudo code
+============
+
+for(int i = 1; i <= sqrt(N); i++){
+    if (n % i == 0){
+        print(i);
+        if((n/i) != i){
+            print(n/i);
+        }
+    }
+}
+
+
+
