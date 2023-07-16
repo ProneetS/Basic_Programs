@@ -18,8 +18,7 @@ public class PrimeNum {
                     if((n/i) != i){
                     count++;
                 }
-            }
-            
+            }   
         }
 
         if(count == 2){
